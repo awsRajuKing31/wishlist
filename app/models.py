@@ -14,4 +14,3 @@ class UserFavs(db.Model):
 
 	def __repr__(self):
 		return f'<User-Place-Food : {self.username}-{self.place}-{self.food}'
-
